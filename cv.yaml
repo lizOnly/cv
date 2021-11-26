@@ -1,16 +1,16 @@
 name:
-  first: Brandon
-  last: Amos
+  first: Lizeth 
+  last: Fuentes
 # phone: ~(540)~947~1238
-email: bda@fb.com
+email: fuentes@ifi.uzh.ch
 pdf: /data/cv.pdf
-src: https://github.com/bamos/cv
-url: "bamos.github.io"
+src: https://github.com/lizOnly/cv
+url: "lizOnly.github.io"
 social:
-  github: bamos
-  twitter: brandondamos
-  linkedin: bdamos
-  google_scholar: d8gdZR4AAAAJ
+  github: lizOnly
+  twitter: lztfuentespz
+  linkedin: lizethfuentesperez
+  google_scholar: yjixYT8AAAAJ&hl
 # Erdős  number is at most 4.
 # (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
 
