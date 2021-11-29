@@ -1,58 +1,14 @@
-@misc{amos2021modelbased,
-      title={On the model-based stochastic value gradient for continuous reinforcement learning},
-      author={Brandon Amos and Samuel Stanton and Denis Yarats and Andrew Gordon Wilson},
-      year={2021},
-      _venue={L4DC},
-      _note={Oral},
-      url={https://arxiv.org/abs/2008.12775},
-      codeurl={https://github.com/facebookresearch/svg},
-      slidesurl={http://bamos.github.io/data/slides/2021.svg.pdf},
-      _talkurl={https://youtu.be/ABS40GW7Ekk?t=5393},
-      selected={true},
-      abstract={
-        Model-based reinforcement learning approaches add explicit domain
-        knowledge to agents in hopes of improving the
-        sample-efficiency in comparison to model-free
-        agents. However, in practice model-based methods are
-        unable to achieve the same asymptotic performance on
-        challenging continuous control tasks due to the
-        complexity of learning and controlling an explicit
-        world model. In this paper we investigate the
-        stochastic value gradient (SVG), which is a
-        well-known family of methods for controlling
-        continuous systems which includes model-based
-        approaches that distill a model-based value
-        expansion into a model-free policy. We consider a
-        variant of the model-based SVG that scales to larger
-        systems and uses 1) an entropy regularization to
-        help with exploration, 2) a learned deterministic
-        world model to improve the short-horizon value
-        estimate, and 3) a learned model-free value estimate
-        after the model's rollout. This SVG variation
-        captures the model-free soft actor-critic method as
-        an instance when the model rollout horizon is zero,
-        and otherwise uses short-horizon model rollouts to
-        improve the value estimate for the policy update. We
-        surpass the asymptotic performance of other
-        model-based methods on the proprioceptive MuJoCo
-        locomotion tasks from the OpenAI gym, including a
-        humanoid. We notably achieve these results with a
-        simple deterministic world model without requiring
-        an ensemble.
-      }
-}
-
 @InProceedings{FRMMP20,
   booktitle = { Pacific Graphics Short Papers, Posters, and Work-in-Progress Papers},
   title     = { {A Robust Feature-aware Sparse Mesh Representation} },
    year      = { 2020 },
   _venue  =   {Pacific Graphics},
-  codeurl={https://github.com/larc/gproshan},
+  codeurl =   {https://github.com/larc/gproshan},
   author    = { {Fuentes Perez}, Lizeth J. and {Romero Calla}, Luciano A. and Montenegro, Anselmo A. and Mura, Claudio and Pajarola, Renato },
   publisher = { The Eurographics Association },
   ISBN      = { 978-3-03868-120-5 },
-  DOI       = { 10.2312/pg.20201226 }
-
+  DOI       = { 10.2312/pg.20201226 },
+  selected  = {true}
 }
 
 @Misc{FuentesPerez2016,
@@ -61,8 +17,8 @@
   howpublished = {Poster presented at NVIDIA GPU Technology Conference 2016},
   date         = {2016-04},
   url          = {http://on-demand.gputechconf.com/gtc/2016/posters/GTC_2016_Performance_Optimization_PO_01_P6294_WEB.pdf},
-  year      = { 2020 },
-  _venue  =   {Pacific Graphics},
+  year      = { 2016 },
+  _venue  =   {NVIDIA GPU Technology Conference},
   selected  = {true},
 }
 
@@ -76,8 +32,8 @@
   date         = {2016},
   journaltitle = {SBC Journal on Interactive Systems},
   url          = {http://seer.ufrgs.br/index.php/jis/article/view/63683},
-    year      = { 2020 },
-  _venue  =   {Pacific Graphics},
+    year      = { 2016 },
+  _venue  =   {SBC Journal on Interactive Systems},
   selected  = {true},
 }
 
@@ -89,8 +45,8 @@
   date      = {2015-11},
   doi       = {10.1109/SBGames.2015.17},
   keywords  = {Context;Decision making;Fuzzy cognitive maps;Games;Mathematical model;Probabilistic logic;Real-time systems;Dynamic Game Difficulty Balancing;Evolutionary Fuzzy Cognitive Maps;Real-time Strategy},
-  year      = { 2020 },
-  _venue  =   {Pacific Graphics},
+  year      = { 2015 },
+  _venue  =   {Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)},
   selected  = {true},
 }
 
@@ -100,22 +56,20 @@
   note         = {Jornadas Chilenas de Computación, Valparaíso, Chile},
   date         = {2012-11},
   journaltitle = {XXIV Encuentro Chileno de Computación},
-  year      = { 2020 },
-  _venue  =   {Pacific Graphics},
-  selected  = {true},
+  year      = { 2012 },
+  _venue  =   {Jornadas Chilenas de Computación, Valparaíso, Chile},
 }
 
 @InProceedings{LopezdelAlamo2013,
   author    = {Lopez del Alamo, C.J. and Fuentes Perez, L.J. and Romero Calla, L.A. and Ramos Lovon, W.R.},
-  title     = {A novel approach for image feature extraction using HSV model color and niters wavelets},
+  title     = {A novel approach for image feature extraction using HSV model color and filter wavelets},
   booktitle = {Computing Conference (CLEI), 2013 XXXIX Latin American},
   pages     = {1-7},
   date      = {2013-10},
   doi       = {10.1109/CLEI.2013.6670598},
   keywords  = {Gabor filters;feature extraction;image classification;image colour analysis;wavelet transforms;Gabor wavelets;HSV color model;boats;butterfly species;color classification;discrimination task;hue-saturation-value color model;image feature extraction;image similarity;model cars;planes;shape classification;wavelet filter;Computational modeling;Feature extraction;Image color analysis;Image segmentation;Shape;Vectors;Wavelet transforms;Gabor wavelets Haar wavelets;HSV;image classification;image recognition},
-  year      = { 2020 },
-  _venue  =   {Pacific Graphics},
-  selected  = {true},
+  year      = { 2013 },
+  _venue  =   {Computing Conference (CLEI), 2013 XXXIX Latin American},
 }
 
 @Article{LopezDelAlamo2014,
@@ -128,9 +82,8 @@
   date         = {2014-02},
   doi          = {10.5120/15441-4051},
   journaltitle = {International Journal of Computer Applications},
-  year      = { 2020 },
-  _venue  =   {Pacific Graphics},
-  selected  = {true},
+  year      = { 2014 },
+  _venue  =   {International Journal of Computer Applications},
 }
 
 @InProceedings{LopezDelAlamo2015,
@@ -141,9 +94,8 @@
   date      = {2015-10},
   doi       = {10.1109/CLEI.2015.7359459},
   keywords  = {Adaptation models;Computational modeling;Heating;Kernel;Shape;Solid modeling;Three-dimensional displays;3D Harris;3D interest points detection;HKS;key points},
-  year      = { 2020 },
-  _venue  =   {Pacific Graphics},
-  selected  = {true},
+  year      = { 2015 },
+  _venue  =   {Computing Conference (CLEI), 2015 Latin American},
 }
 
 @Article{RomeroCalla2019,
@@ -154,9 +106,9 @@
   doi          = {10.1016/j.cag.2019.08.014},
   journaltitle = {Computers \& Graphics},
   keywords     = { Geodesic distance, Fast marching, Triangular meshes, Parallel programming, Breadth-first search },
-  year      = { 2020 },
-  _venue  =   {Pacific Graphics},
-  selected  = {true},
+  year      = { 2019 },
+  _venue  =   {Computers \& Graphics},
+  codeurl =   {https://github.com/larc/gproshan},
 }
 
 @article{PMGFPG:2020,
@@ -167,7 +119,6 @@ volume = {39},
 number = {2},
 pages = {667-699},
 year = {2020},
-_venue  =   {Pacific Graphics},
-selected  = {true},
+_venue  =   {Computer Graphics Forum},
 }
 
