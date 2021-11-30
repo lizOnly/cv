@@ -231,11 +231,17 @@ research:
       #- '{\bf Scala} and {\bf Bash} development in {\bf Linux}.'
 
 positions:
-  - place: Facebook AI
-    location: New York City
-    title: Research Scientist
+  - place: University of Zurich
+    location: Switzerland
+    title: Research Assistant
     # dates: May 2019 -- Present
-    dates: 2019 -- Present
+    dates: Aug 2019 -- Present
+  
+  - place: EVOCATION
+    location: Switzerland
+    title: Early Stage Researcher (ESR)
+    # dates: May 2019 -- Present
+    dates: Aug 2019 -- Present
 
 industry:
   - place: Intel Labs
