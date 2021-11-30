@@ -25,7 +25,7 @@ order:
   # - [news, News]
   - [positions, Current Position]
   - [education, Education]
-  - [industry, Research Internships]
+  - [industry, Research Experience]
   # - [research, Research Experience]
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
@@ -35,10 +35,10 @@ order:
   - [all_publications, Publications]
   - [repos, Repositories]
   # - [NEWPAGE, NEWPAGE]
-  - [talks, Invited Talks]
-  - [advising, Interns and Students]
-  - [service, Professional Activities]
-  - [teaching, Teaching]
+ # - [talks, Invited Talks]
+ # - [advising, Interns and Students]
+ # - [service, Professional Activities]
+ # - [teaching, Teaching]
   - [skills, Skills]
 
 about: '
@@ -69,88 +69,37 @@ service:
     year: 2014 -- 2015
 
 repos:
-  - repo_url: https://github.com/facebookresearch/mbrl-lib
+  - repo_url: https://github.com/larc/gproshan
     year: 2021
-    desc: Model-based reinforcement learning library
-  # - repo_url: https://github.com/facebookresearch/svg
-  #   year: 2021
-  #   desc: Stochastic Value Gradient Experiments
-  - repo_url: https://github.com/facebookresearch/dcem
-    year: 2020
-    desc: The Differentiable Cross-Entropy Method
-  - repo_url: https://github.com/facebookresearch/higher
-    year: 2019
-    desc: PyTorch higher-order gradient and optimization library
-  - repo_url: https://github.com/bamos/thesis
-    year: 2019
-    desc: Ph.D.~Thesis LaTeX source code
-  - repo_url: https://github.com/cvxgrp/cvxpylayers
-    year: 2019
-    desc: Differentiable Convex Optimization Layers
-  - repo_url: https://github.com/locuslab/mpc.pytorch
-    year: 2018
-    desc: Differentiable Model-Predictive Control
-  - repo_url: https://github.com/locuslab/icnn
-    year: 2017
-    desc: Input Convex Neural Networks
-  - repo_url: https://github.com/locuslab/optnet
-    year: 2017
-    desc: OptNet experiments
-  - repo_url: https://github.com/locuslab/qpth
-    www: https://locuslab.github.io/qpth/
-    year: 2017
-    desc: Differentiable PyTorch QP solver
-  - repo_url: https://github.com/bamos/densenet.pytorch
-    year: 2017
-    desc: PyTorch DenseNet implementation
-  - repo_url: https://github.com/bamos/block
-    year: 2017
-    desc: Intelligent block matrix constructions
-  - repo_url: https://github.com/bamos/setGPU
-    year: 2017
-    desc: Automatically use the least-loaded GPU
-  - repo_url: https://github.com/bamos/dcgan-completion.tensorflow
-    year: 2016
-    desc: Image completion with GANs
-  - repo_url: https://github.com/cmusatyalab/openface
-    www: http://cmusatyalab.github.io/openface/
-    year: 2015
-    desc: Face recognition with deep neural networks
-  - repo_url: https://github.com/bamos/zsh-history-analysis
-    year: 2014
-    desc: Analyze and plot your zsh history
-  - repo_url: https://github.com/bamos/cv
-    year: 2013
-    desc: "Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX"
-  - repo_url: https://github.com/bamos/dotfiles
-    year: 2012
-    desc: Linux, mutt, xmonad, vim, emacs, zsh
+    desc:  Geometry Processing and Shape Analysis Framework
 
 education:
-  - school: Carnegie Mellon University
-    location: Pittsburgh, PA
+  - school: University of Zurich
+    location: Zurich, Switzerland
     degree: Ph.D. in Computer Science
-    dates: 2014 -- 2019
+    dates: 2019 -- Present
     # dates: May 2019
-    overallGPA: 0.00/0.00
-    details:
-      - "\\textit{\\href{https://github.com/bamos/thesis}{Differentiable Optimization-Based Modeling for Machine Learning}}"
-      - "Advisors: \\href{http://zicokolter.com}{J. Zico Kolter} (2016 -- 2019),  \\href{https://www.cs.cmu.edu/~satya/}{Mahadev Satyanarayanan} (2014 -- 2016)"
+    #overallGPA: 0.00/0.00
+    #details:
+    #  - "\\textit{\\href{https://github.com/bamos/thesis}{Differentiable Optimization-Based Modeling for Machine Learning}}"
+    #  - "Advisors: \\href{http://zicokolter.com}{J. Zico Kolter} (2016 -- 2019),  \\href{https://www.cs.cmu.edu/~satya/}{Mahadev Satyanarayanan} (2014 -- 2016)"
 
 
-  - school: Virginia Tech
-    location: Blacksburg, VA
-    degree: B.S. in Computer Science
-    dates: 2011 -- 2014
+  - school: Federal Fluminense University
+    location: Niteroi, Brazil
+    degree: M.S. in Computer Science
+    dates: 2015 -- 2017
     # dates: May 2014
-    overallGPA: 3.99/4.00
-    majorGPA: 4.00/4.00
+    #overallGPA: 3.99/4.00
+    #majorGPA: 4.00/4.00
     # details:
     #   - "Advisors: \\href{https://people.cs.vt.edu/~ltw/shortvita.html}{Layne Watson}, \\href{https://www.magnum.io/people/jules.html}{Jules White}, \\href{https://www.ssrg.ece.vt.edu/}{Binoy Ravindran}"
 
-  # - school: Northside High School
-  #   location: Roanoke, VA
-    # dates: May 2011
+  - school: National University of Saint Augustine
+    location: Arequipa, PEru
+    degree: B.S. in Computer Science
+    dates: 2010 -- 2014
+  # dates: May 2011
 
 research:
   - place: Facebook AI
@@ -237,33 +186,22 @@ positions:
     # dates: May 2019 -- Present
     dates: Aug 2019 -- Present
   
-  - place: EVOCATION
-    location: Switzerland
+  - place: EVOCATION MCSA-ITN
     title: Early Stage Researcher (ESR)
     # dates: May 2019 -- Present
     dates: Aug 2019 -- Present
 
 industry:
-  - place: Intel Labs
-    location: Santa Clara
+  - place: IPRODAM3D 
+    location: Image Processing and Data Mining Research Group 
+    dates: Jan 2012 -- Present
+  - place: VISTA Lab
+    location: Technion - Israel Institute of Technology
     # title: Research Intern
-    dates: 2018
+    dates: Mar 2018
     # dates: June 2018 -- Sept 2018
     details:
-      - "(Host: \\href{http://vladlen.info/}{Vladlen Koltun})"
-  - place: Google DeepMind
-    location: London
-    # title: Research Intern
-    dates: 2017
-    # dates: May 2017 -- Oct 2017
-    details:
-      - "(Hosts: \\href{http://mdenil.com/}{Misha Denil} and \\href{https://scholar.google.com/citations?user=nzEluBwAAAAJ}{Nando de Freitas})"
-  - place: Adobe Research
-    location: San Jose
-    # title: Data Scientist Intern
-    dates: 2014
-    details:
-      - "(Host: \\href{https://research.adobe.com/person/david-tompkins/}{David Tompkins})"
+      - "(Host: \\href{https://bron.cs.technion.ac.il/}{Alex Bronstein})"
   #   # dates: May 2014 -- Aug 2014
   #   area: Distributed Systems
     # details:
@@ -599,26 +537,16 @@ coursework:
 
 skills:
   - title: Programming
-    details: C, C++, Fortran, Haskell, Java,
-      Lua, Make, Mathematica, Python, R, Scala
+    details: C++, Python, Haskell, Java, Make, R
   - title: Frameworks
-    details: JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+    details: NumPy, Pandas, PyTorch, TensorFlow
   - title: Tools
-    details: Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
+    details: Linux, vim, git
 
 honors:
-  - title: NSF Graduate Research Fellowship
-    year: 2016 -- 2019
-  - title: Nine undergraduate scholarships
-    descr: |
-      Roanoke County Public Schools Engineering,
-      Salem--Roanoke County Chamber of Commerce,
-      Papa John's,
-      Scottish Rite of Freemasonry,
-      VT Intelligence Community Conter for Academic Excellence,
-      VT Pamplin Leader,
-      VT Benjamin F.~Bock, VT Gay B.~Shober, VT I.~Luck Gravett
-    year: 2011 -- 2014
+  - title: Grace Hopper Celebration (GHC20) student scholar
+    year: 2020
+  
   # - title: Phi Beta Kappa Honor Society
     # year: Inducted May 2014
   # - title: 1st Place Undergraduate Senior Capstone Award, Virginia Tech Computer Science
