@@ -26,7 +26,7 @@ order:
   - [positions, Current Position]
   - [education, Education]
   - [industry, Research Experience]
-  # - [research, Research Experience]
+  - [research, Software Developer]
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
   # - [projects, Projects]
@@ -103,82 +103,29 @@ education:
   # dates: May 2011
 
 research:
-  - place: Facebook AI
-    location: New York City
-    title: Research Scientist
-    dates: May 2019 -- Present
-    area: Machine learning and optimization
-  - place: Carnegie Mellon University
-    location: Pittsburgh
+  - place: TecZelt
+    location: Rio de Janeiro, Brazil
     title: Research Assistant
-    advisor: Zico Kolter
-    dates: Apr 2016 -- May 2019
-    area: Machine learning and optimization
-  - place: Intel Labs
-    location: Santa Clara
-    title: Research Intern (Vladlen Koltun)
-    dates: June 2018 -- Sept 2018
-    advisor: Vladlen Koltun
-    area: Machine learning
-  - place: Google DeepMind
-    location: London
-    title: Research Intern (Misha Denil and Nando de Freitas)
-    dates: May 2017 -- Oct 2017
-    advisor: Nando de Freitas
-    area: Machine and reinforcement learning
-  - place: Carnegie Mellon University
-    location: Pittsburgh, Pennsylvania
-    title: Research Assistant
-    advisor: Mahadev Satyanarayanan
-    dates: Aug 2014 -- Apr 2016
-    area: Applied machine learning and mobile systems
+    advisor: FazGame platform
+    dates: Aug 2015 -- Jan 2017
+    area:  Ruby on Rails, Unity developer
     details:
       - |
           Face recognition with deep neural networks:
           \url{http://github.com/cmusatyalab/openface}
-  - place: Virginia Tech
-    location: Blacksburg, Virginia
-    title: Undergraduate Research Assistant
-    advisor: Jules White
-    dates: May 2012 -- May 2014
-    area: Mobile systems, cyber-physical systems, and security
-    details:
-      - Android malware detection research using
-        a distributed {\bf Actor-based Scala} system.
-      #- Modified the {\bf Android source} to provide non-standard logging
-      #  information for dynamic malware analysis.
-      - Manufacturing cyber-physical security research implemented
-        with {\bf VC\#} and {\bf Python}.
-      #- Developed {\bf VC\#} and {\bf Python} programs for a pilot study on
-      #  manufacturing cyber-physical security.
-      #- Assisted {\bf C++} and {\bf Make} development in {\bf Linux} for a
-      #  deployment optimization framework.
-  - place: Virginia Tech
-    location: Blacksburg, Virginia
-    title: Undergraduate Research Assistant
-    advisor: Layne Watson
-    dates: Jan 2013 -- May 2014
-    area: Scientific computing, global/stochastic optimization, and bioinformatics
-    details:
-      - Algorithm development for global and stochastic optimization using quasi-Newton
-        methods for {\bf parameter estimation} in
-        {\bf Fortran 95} and {\bf OpenMP}.
-      - Bioinformatics research on yeast cell modeling using
-        {\bf Fortran 95}, {\bf C++}, and {\bf Matlab}.
+  #- place: Virginia Tech
+  #  location: Blacksburg, Virginia
+  #  title: Undergraduate Research Assistant
+  #  advisor: Layne Watson
+  #  dates: Jan 2013 -- May 2014
+  #  area: Scientific computing, global/stochastic optimization, and bioinformatics
+  #  details:
+  #    - Algorithm development for global and stochastic optimization using quasi-Newton
+  #      methods for {\bf parameter estimation} in
+  #      {\bf Fortran 95} and {\bf OpenMP}.
+  #    - Bioinformatics research on yeast cell modeling using
+  #      {\bf Fortran 95}, {\bf C++}, and {\bf Matlab}.
 
-  - place: Virginia Tech
-    location: Blacksburg, Virginia
-    title: Undergraduate Research Assistant
-    advisor: Binoy Ravindran
-    dates: Nov 2012 -- Mar 2014
-    area: Heterogeneous compilers
-    details:
-      - Compiler research on a heterogeneous system
-        on automatic {\bf OpenMP} to {\bf CUDA}
-        translation using {\bf C++} and the {\bf ROSE} compiler framework.
-      - Polyhedral loop optimization research to restructure
-        {\bf OpenCL} kernels for locality using {\bf LLVM} and {\bf Polly}.
-      #- '{\bf Scala} and {\bf Bash} development in {\bf Linux}.'
 
 positions:
   - place: University of Zurich
@@ -188,6 +135,7 @@ positions:
     dates: Aug 2019 -- Present
   
   - place: EVOCATION MCSA-ITN
+    location: Switzerland
     title: Early Stage Researcher (ESR)
     # dates: May 2019 -- Present
     dates: Aug 2019 -- Present
@@ -540,12 +488,12 @@ skills:
   - title: Programming
     details: C++, Python, Haskell, Java, Make, R
   - title: Frameworks
-    details: NumPy, Pandas, PyTorch, TensorFlow
+    details: NumPy, PyTorch, TensorFlow
   - title: Tools
     details: Linux, vim, git
 
 honors:
-  - title: Grace Hopper Celebration (GHC20) student scholar
+  - title: Grace Hopper Celebration Student Scholar (GHC 2020)
     year: 2020
   
   # - title: Phi Beta Kappa Honor Society
