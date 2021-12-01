@@ -1,6 +1,6 @@
 name:
   first: Lizeth 
-  last: Fuentes
+  last: Fuentes Perez
 # phone: ~(540)~947~1238
 email: fuentes@ifi.uzh.ch
 pdf: /data/cv.pdf
@@ -24,6 +24,7 @@ order:
   - [about, NONE]
   # - [news, News]
   - [positions, Current Position]
+  - [interests, Research Interests]
   - [education, Education]
   - [industry, Research Experience]
   - [research, Software Developer]
@@ -41,6 +42,10 @@ order:
  # - [teaching, Teaching]
   - [skills, Skills]
 
+interests:
+  - title: My research interests lie at the intersection of geometry processing, 3D computer vision, and deep learning for point clouds. 
+           In particular, I am interested in building learning systems that reconstruct structural elements and understand objects of indoor environments.
+   # year: 2020
 about: '
   I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and
   study foundational topics in <b>machine learning</b> and <b>optimization</b>,
@@ -87,7 +92,7 @@ education:
 
   - school: Federal Fluminense University
     location: Niteroi, Brazil
-    degree: M.S. in Computer Science
+    degree: M.Sc. in Computer Science
     dates: 2015 -- 2017
     # dates: May 2014
     #overallGPA: 3.99/4.00
@@ -98,7 +103,7 @@ education:
 
   - school: National University of Saint Augustine
     location: Arequipa, PEru
-    degree: B.S. in Computer Science
+    degree: B.Sc. in Computer Science
     dates: 2010 -- 2014
   # dates: May 2011
 
@@ -144,13 +149,20 @@ industry:
   - place: IPRODAM3D 
     location: Image Processing and Data Mining Research Group 
     dates: Jan 2012 -- Present
+
   - place: VISTA Lab
     location: Technion - Israel Institute of Technology
     # title: Research Intern
     dates: Mar 2018
     # dates: June 2018 -- Sept 2018
     details:
-      - "(Host: \\href{https://bron.cs.technion.ac.il/}{Alex Bronstein})"
+      - "(Host: \\href{https://bron.cs.technion.ac.il/}{Alex Bronstein})"x`
+
+  - place: Cátedra Concytec
+    location: National University of Saint Augustine
+    # title: Research Intern
+    dates: Jan 2014 -- Dec 2014
+    # dates: June 2018 -- Sept 2018
   #   # dates: May 2014 -- Aug 2014
   #   area: Distributed Systems
     # details:
@@ -486,7 +498,7 @@ coursework:
 
 skills:
   - title: Programming
-    details: C++, Python, Haskell, Java, Make, R
+    details: C++, Python, Haskell, Java, Make
   - title: Frameworks
     details: NumPy, PyTorch, TensorFlow
   - title: Tools
